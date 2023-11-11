@@ -1,0 +1,140 @@
+/* border */
+section, .main-content, img, .text, h2, .slide-icon, button, .top-bar {
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: rgb(70, 15, 133);
+}
+
+body {
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: 580px;
+    align-items: center;
+    background-color: var(--bg-color);
+    border-radius: 55px;
+    border: 8px solid black;
+    position: relative;
+}
+
+h2, button, article, .time {
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+/* notch */
+.top-bar {
+    width: inherit;
+    height: 45px;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notch {
+    width: 32.5%;
+    height: 23px;
+    border-radius: 20px;
+    background-color: black;
+    margin-inline: 30px;
+}
+
+.time {
+    font-size: 14px;
+    color: black;
+}
+
+.control-center img {
+    width: 15px;
+    height: 15px;
+}
+
+.control-center {
+    height: 18px;
+}
+
+/* main content */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: inherit;
+    height: 80%;
+    color: rgb(224, 224, 224);
+    font-size: 14px;
+    padding: 20px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+    color: rgb(222, 231, 238);
+}
+
+span {
+    font-size: 36px;
+    color: aliceblue;
+}
+
+button {
+    width: 120px;
+    border-radius: 25px;
+    height: 35px;
+    font-size: 15px;
+    background-color: white;
+    border-color: transparent;
+    color: rgb(40, 6, 71);
+    margin-bottom: 15px;
+}
+
+.main-content img {
+    width: 130px;
+    height: 130px;
+}
+
+/* slide icon */
+.slide-icon {
+    display: flex;
+    column-gap: 4px;
+}
+
+.slide-icon div {
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    background-color: rgb(214, 214, 214);
+}
+
+.slide-icon .selected {
+    background-color: rgb(145, 70, 231);
+}
+
+
+/* bottom */
+.bar {
+    width: 100px;
+    height: 3px;
+    border-radius: 50px;
+    background-color: black;
+    position: absolute;
+    bottom: 5px;
+}
