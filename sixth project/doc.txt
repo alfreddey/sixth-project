@@ -1,4 +1,0 @@
-// Iterate over each char in text
-// If char is '-' set index to 1 and continue to next char
-// If next char is not a number set index back to 0 and also continue
-// If index = 0 and the char is a number, add it up
