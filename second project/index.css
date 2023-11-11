@@ -1,0 +1,209 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    box-sizing: border-box;
+    width: 43%;
+    height: 55%;
+    padding: 30px;
+    box-shadow: 0 0 5px 5px rgb(233, 233, 233);
+    border-radius: 5px;
+    /* border: 1px solid black; */
+}
+
+div {
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+img {
+    object-fit: contain;
+    width: 80%;
+    height: 80%;
+}
+
+.top {
+    height: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+.content {
+    height: 60%;
+    width: 85%;
+    position: relative;
+    display: flex;
+    padding-top: 20px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    height: 20%;
+}
+
+.profile {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    column-gap: 20px;
+}
+
+.profile-pic {
+    width: 55px;
+    height: 88%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 2px solid rgb(43, 38, 65);
+}
+
+.profile-text {
+    height: inherit;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.name-sticker {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.username {
+    font-size: 12px;
+    color: rgb(82, 82, 82);
+}
+
+/* the check */
+.name-sticker img {
+    width: 20px;
+    height: 20px;
+}
+
+.follow-btn {
+    width: 130px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.btn {
+    border-color: rgb(129, 129, 129);
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 15px;
+    background-color: white;
+}
+
+.follow-btn:hover, .btn:hover {
+    cursor: pointer;
+}
+
+.dropdown {
+    /* border: 1px solid black; */
+    width: 25px;
+    height: 25px;
+}
+
+.date-time {
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    width: 200px;
+    font-size: 12px;
+    color: rgb(90, 90, 90);
+}
+
+.like-icon img {
+    width: 20px;
+    height: 20px;
+}
+
+.bottom div {
+    width: 100%;
+    height: 30px;
+    
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: rgb(51, 51, 51);
+    font-weight: 600;
+}
+
+.bottom .like-icon {
+    width: 300px;
+}
+
+.like-icon img {
+    margin-right: 10px;
+}
+
+.first, .second {
+    border: 1px solid grey;
+    width: 50%;
+    border-left: 0;
+    border-right: 0;
+}
+
+.first {
+    border-right: 1px solid gray;
+    color: aliceblue;
+}
+
+span {
+    font-weight: 700;
+    font-size: 15px;
+    padding: 5px;
+    color: black;
+}
+
+.text {
+    text-align: left;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.second .circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.profile-pic img {
+    width: 100%;
+    height: 100%;
+}
+
+.like-counter .first {
+    color: grey;
+}
